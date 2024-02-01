@@ -1,0 +1,68 @@
+body {
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+    background-color: aliceblue;
+    width: 60%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: rgb(214, 245, 245);
+}
+
+.sidebar a:link,
+a:visited {
+    background-color: #91a5eb;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 60%;
+    border-radius: 10pt;
+    margin-bottom: 5px;
+}
+
+.sidebar a:hover,
+a:active {
+    background-color: rgb(131, 27, 169);
+}
+
+.sidebar li {
+    list-style-type: none;
+}
+p {
+    text-align: left;
+}
+
+.main {
+    width: 65%;
+    padding: 5%;
+    text-align: center;
+}
+
+.main img {
+    border-radius: 15%;
+}
+#tablica{
+    margin-top: 5%;
+}
+#tablica td,
+#tablica th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#tablica th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
